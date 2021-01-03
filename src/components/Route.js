@@ -1,3 +1,4 @@
+import './Widgets.css';
 import {useEffect, useState} from 'react';
 const Route = ({path,children}) => {
     const [currentPath,setCurrentPath] = useState(window.location.pathname);

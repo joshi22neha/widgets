@@ -1,4 +1,6 @@
+import './Widgets.css';
 import React, {useState} from 'react';
+import Header from './Header';
 
 const Accordion = ( {items} ) => {
     const [activeIndex,setActiveIndex] = useState(null);
@@ -9,7 +11,7 @@ const Accordion = ( {items} ) => {
     const renderedList = items.map((item,index) => {
         const active = index === activeIndex ? 'active' : '';
         return(
-            <React.Fragment key={item.title} >
+                <React.Fragment key={item.title} >
                 <div className={`title ${active}`} onClick={()=> onTitleClick(index)} >
                     <i className='dropdown icon' />
                     {item.title}
@@ -21,7 +23,12 @@ const Accordion = ( {items} ) => {
         );
     });
     return(
-        <div className='ui styled accordion' >{renderedList}</div>
+        <div>
+            <Header />
+            <div className='ui styled accordion' >
+                {renderedList}
+            </div>
+        </div>
     );
 };
 

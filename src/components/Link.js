@@ -1,3 +1,4 @@
+import './Widgets.css';
 import React from 'react';
 
 const Link = ({href, children, className}) => {

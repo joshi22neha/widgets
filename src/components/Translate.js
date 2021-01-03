@@ -1,6 +1,8 @@
+import './Widgets.css';
 import React, { useState } from 'react';
 import Dropdown from './Dropdown';
 import Convert from './Convert';
+import Header from './Header';
 
 const options = [
     {
@@ -26,6 +28,7 @@ const Translate = () => {
     const [text,setText] = useState('');
     return(
         <div>
+            <Header/>
             <div className='ui form'>
                 <div className='field'>
                     <label>Enter Text</label>

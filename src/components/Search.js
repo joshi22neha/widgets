@@ -1,5 +1,7 @@
+import './Widgets.css';
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
+import Header from './Header';
 
 const Search =() => {
     const [term,setTerm] = useState('');
@@ -50,6 +52,7 @@ const Search =() => {
 
     return(
         <div>
+            <Header/>
             <div className='ui form'>
                 <div className='ui field'>
                     <label> Enter Search term</label>

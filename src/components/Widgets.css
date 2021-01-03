@@ -10,3 +10,89 @@
 span.searchmatch{
     font-weight: bold;
 }
+body{
+    background-color: rgb(250 250 250);
+    
+}
+.container{
+    background-color: rgb(250 250 250);
+    margin: 50px 200px 50px 200px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px 10px 10px 10px;
+}
+.container p:not(:last-child) {
+    font-size: large;
+}
+.HomepageText{
+    text-align: center;
+    padding-left: 300px ;
+    padding-right: 300px;
+    padding-top: 20px;
+    
+}
+.grid-container{
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: rgb(250 250 250);
+    padding: 20px 50px 50px 50px;
+  }
+.grid-container .cards{
+    background-color: rgb(255 255 255);
+    padding: 10px 10px 10px 10px;
+    height: 150px;
+    position: relative;
+    border-radius: 7px;
+    border-top-style: solid;
+   
+    
+}
+.grid-container .cards p{
+    font-size: small;
+}
+.item1 .cards {
+    border-top-style: solid;
+    border-color: yellowgreen;
+}
+.item2 .cards {
+    border-top-style: solid;
+    border-color:crimson;
+}
+.item3 .cards {
+    border-top-style: solid;
+    border-color:darkcyan;
+}
+.item4 .cards {
+    border-top-style: solid;
+    border-color:darkorange;
+}
+.homepageIcon{
+    position:absolute;
+    bottom: 10px;
+    right:0px;
+}
+.homepageIcon img {
+    height: 70%;
+    width: 70%;
+}
+.item1{
+    grid-area: 2 / 1 / 4 / 2;
+}
+.item2{
+    grid-area: 1 / 2 / 3 / 3;
+}
+.item3{
+    grid-area: 3 / 2 / 5 / 3;
+}
+.item4{
+    grid-area: 2 / 3 / 4 / 4;
+}
+.grid-container .cards:hover{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.name p{
+    text-decoration: none;
+    color: grey;
+}

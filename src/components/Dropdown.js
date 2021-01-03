@@ -1,3 +1,4 @@
+import './Widgets.css';
 import React, { useState, useEffect, useRef } from 'react';
 
 const Dropdown = ({label, options, selected, onSelectChange}) => {
