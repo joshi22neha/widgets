@@ -10,9 +10,9 @@ const Homepage =() => {
                     <div className="cards">
                     <Link href='/accordion' className='name'>
                         <p><b>Accordion</b></p>
-                        <p>The Accordion Widget is used to display text in a collapsed, condensed manner, letting you save space while still presenting an abundance of content</p>
+                        <p>The Accordion Widget is used to display text in a collapsed, condensed manner, letting you save space.</p>
                         <span className="homepageIcon">
-                            <img src="images/favicon-32x32.png" />
+                            <img src="images/icon-karma.svg" />
                         </span></Link>
                     </div>
                 </div>   
@@ -24,7 +24,7 @@ const Homepage =() => {
                         <p><b>Search</b></p>
                         <p>The search widget provides a customizable search interface for web applications</p>
                         <span className="homepageIcon">
-                            <img src="http://www.w3.org/2000/svg" />
+                            <img src="images/icon-supervisor.svg" />
                         </span></Link>
                     </div>
                 </div>   
@@ -34,7 +34,7 @@ const Homepage =() => {
                     <div className="cards">
                     <Link href='/textChange' className='name'>
                         <p><b>Dropdown</b></p>
-                        <p>Dropdowns allow to toggle an element's visibility. They usually contain some sort of navigation, be it a bare list of links, or more complex elements</p>
+                        <p>Dropdowns allow to toggle an element's visibility. They usually contain some sort of navigation.</p>
                         <span className="homepageIcon">
                             <img src="images/icon-team-builder.svg" />
                         </span></Link>

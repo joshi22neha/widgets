@@ -10,7 +10,7 @@ import Homepage from './Homepage';
 const items = [
     {
         title: 'What is React?',
-        content: 'React is ajavascript front-end library'
+        content: 'React is a javascript front-end library'
     },
     {
         title: 'Why use React?',

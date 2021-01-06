@@ -44,10 +44,7 @@ body{
     padding: 10px 10px 10px 10px;
     height: 150px;
     position: relative;
-    border-radius: 7px;
-    border-top-style: solid;
-   
-    
+    border-radius: 7px;   
 }
 .grid-container .cards p{
     font-size: small;
